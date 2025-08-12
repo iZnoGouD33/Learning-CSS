@@ -1,0 +1,33 @@
+h1 {
+    color:  red;
+
+}
+
+p{
+    color: green;
+}
+
+button {
+    color: violet;
+}
+
+body {
+    background-color: rgb(28, 18, 116);
+}
+
+#div1{
+    color: red;
+    background-color: black;
+}
+
+#div1 p {
+    color: aqua;
+    background-color: yellow;
+
+}
+
+#div2 {
+    color: green;
+    background-color: black;
+    
+}
