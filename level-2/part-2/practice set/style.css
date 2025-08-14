@@ -1,0 +1,32 @@
+div{
+    height: 430px;
+    width: 150px;
+    background-color: black;
+    padding: 10px;
+    margin: 200px;
+}
+
+.divx1{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+.divx2{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+.divx3{
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    margin: 25px;
+    border-radius: 50%;
+
+}
