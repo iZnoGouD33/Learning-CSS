@@ -1,0 +1,15 @@
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px; /* This sets the font size for the text inside box1 */
+}
+
+#box2{
+    width:  30%;  /* 30% of box1's width */
+    background-color: blue;
+    margin-left: 10%; 
+    font-size: 2em; /* This sets the font size for the text inside box2 relative to box1's font size */
+    width: 5rem;
+    height: 10vh; /* 10vh is 1% of the viewport height */
+}

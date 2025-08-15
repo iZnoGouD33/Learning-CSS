@@ -1,0 +1,31 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;  /* This makes the divs sit next to each other */
+}
+
+#box1{
+    position: static; /* Default position */
+}
+
+#box2{
+    position: relative; /* Relative to box1 */
+    top: 20px; /* Moves box2 down by 20px from its normal*/
+    left: 10px; /* Moves box2 right by 30px from its normal */
+    z-index: 4;
+}
+
+#box3{
+    position: sticky; /* Positioned relative to the nearest positioned ancestor */
+    top: 0px;
+    left: 20px; /* Moves box3 down by 10px and right by 20px from the top-left corner of the viewport */
+    z-index: 3;
+}
+
+#box4{
+    position: fixed; /* Fixed position relative to the viewport */
+    top: 0; /* Sticks to the top of the viewport */
+    left: 0;
+}

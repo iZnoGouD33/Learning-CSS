@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;  /* This makes the divs sit next to each other */
+}
+
+#box1{
+    background-image: url('cat2.jpg'); /* Background image for box1 */
+    background-size: cover; /* Ensures the image covers the entire box */
+    background-size: contain; /* Ensures the image fits within the box */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
