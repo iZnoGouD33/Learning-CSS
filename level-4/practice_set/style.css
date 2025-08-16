@@ -1,0 +1,31 @@
+#navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+li{
+    list-style-type: none;
+    /* background-color: aqua; background color for the list items */
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    align-self: flex-start; /* aligns the item to the start of the cross axis */
+}
